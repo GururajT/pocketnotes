@@ -1,0 +1,48 @@
+.notes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  }
+  .notes > img {
+    height: 40vh;
+    width: 40vw;
+} 
+  .pocket{
+    color: #000;
+    font-family: Roboto;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+  }
+  .message{
+    width: 43vw;
+    color: #292929;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 32px; /* 145.455% */
+    letter-spacing: 0.44px;
+    padding: 1rem;
+  }
+  .encrypt{
+    position: absolute;
+    left: 40%;
+    bottom: 0;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    margin-top: 100px;
+   
+  }
+  .fa-lock{
+    margin-right: 5px !important;
+  }
+
